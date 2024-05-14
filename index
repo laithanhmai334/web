@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mật khẩu là nhanguyendethuonglam á </h2>
+
+<p>Nhập mật khẩu dzo nè >v<: </p>
+
+<input type="password" id="myInput">
+
+<button onclick="myFunction()">Xác nhận</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  if (x == "nhanguyendethuonglam") {
+    document.getElementById("demo").innerHTML = "Mừng Tuyến về nha. Tuyến cũng cute lắmmm";
+  } else {
+    document.getElementById("demo").innerHTML = "Meow meow nhập sai ùi kìa :<";
+  }
+}
+</script>
+
+</body>
+</html>
